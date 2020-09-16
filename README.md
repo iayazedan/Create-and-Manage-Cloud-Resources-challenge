@@ -20,9 +20,9 @@ Open Google Cloud Shell
 
 `gcloud container clusters get-credentials nucleus-webserver1`
 
-`kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:2.0`
+`kubectl create deployment myapp --image=gcr.io/google-samples/hello-app:2.0`
 
-`kubectl expose deployment hello-app --type=LoadBalancer --port 8080`
+`kubectl expose deployment myapp --type=LoadBalancer --port 8080`
 
 `kubectl get service `
 
